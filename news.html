@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News | Winstar Media</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="news-page">
+
+    <div id="cursor"></div>
+
+    <!-- Background Decoration -->
+    <div class="fixed inset-0 z-[-1] overflow-hidden">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+    </div>
+
+    <!-- Navigation -->
+     <!-- Navigation -->
+     <nav class="fixed w-full z-50 nav-glass py-4 px-6 md:px-12 flex justify-between items-center" id="navbar">
+        <div class="flex items-center gap-3 logo-container">
+            <img src="image/logo/logo2.png" alt="Winstar Media Logo" class="nav-logo">
+           
+        </div>
+        
+        <div class="hidden lg:flex space-x-8 font-bold text-[13px] uppercase tracking-widest text-zinc-600">
+            <a href="./index.html" class="nav-link ">Home</a>
+            <a href="./index.html#about" class="nav-link">About Us</a>
+            <a href="./index.html#partners" class="nav-link">Partners</a>
+            <a href="./news.html" class="nav-link active">News</a>
+            <a href="./tuyendung.html" class="nav-link">Hiring</a>
+        </div>
+
+        <div class="flex items-center gap-4">
+            <a href="index.html/#contact" class="hidden sm:block bg-red-600 text-white px-7 py-3 rounded-full font-bold shadow-xl shadow-red-100 hover:bg-red-700 transition-all text-xs uppercase text-center">
+                Contact Now
+            </a>
+            <button class="lg:hidden text-zinc-900 text-2xl"><i class="fas fa-bars"></i></button>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="pt-40 pb-16 px-6">
+        <div class="container mx-auto">
+            <div class="max-w-4xl reveal">
+                <span class="inline-block py-2 px-6 rounded-full bg-red-50 text-red-600 text-[10px] font-black uppercase tracking-[0.3em] mb-8">Newsroom</span>
+                <h1 class="news-h1 text-5xl md:text-7xl font-extrabold text-zinc-900 mb-6 tracking-tighter">News & Updates</h1>
+                <p class="text-zinc-500 text-xl md:text-2xl font-medium leading-relaxed">
+                    Highlights, new projects, and behind-the-scenes stories from Winstar Media.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- News Grid -->
+    <section class="pb-28 px-6">
+        <div class="container mx-auto">
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <article class="news-card bg-white rounded-[2.5rem] overflow-hidden reveal" data-news>
+                    <!-- Ảnh bìa chỉ hiển thị ngoài lưới tin tức, không xuất hiện khi mở chi tiết -->
+                    <img class="news-thumb" src="image/news/music channel.jpg" alt="Strategic partnership">
+                    <div class="p-10">
+                        <h3 class="news-h3 text-2xl font-extrabold text-zinc-900 tracking-tighter mb-4">
+                            Promote The Relaxing Music Market
+                        </h3>
+                        <p class="text-zinc-500 leading-relaxed mb-8 news-summary"></p>
+                        <button type="button" class="open-news inline-flex items-center gap-3 font-black text-zinc-900 hover:text-red-600 transition-colors">
+                            Read more <i class="fas fa-arrow-right text-sm"></i>
+                        </button>
+                    </div>
+                    <template class="news-full">
+                        <p>
+                            <strong>Music Channel</strong>
+                        </p>
+                        As a professional music producer with more than 10 thousand songs of various genres, full copyright. Our company Winstar Media has dozens of music Youtube channels with over 100 thousand subscribers each. The most prominent is the music channel: Расслабляющая музыѺа, which opens up a world filled with gentle, pleasant melodies that can touch the hearts and soothe the minds of listeners. Beautiful, vivid images with melodious, charming music, the channel's videos are loved by the audience and have reached more than 524 thousand subscribers. And this year, we aim to achieve the Youtube gold button, with the desire to bring the audience more quality relaxing music videos.
+<img src="image/news/12.png"  style="max-width: 500px; width: 100%; border-radius: 1rem; margin: 0 auto 1.5rem; display: block;">
+                    </template>
+                </article>
+                <article class="news-card bg-white rounded-[2.5rem] overflow-hidden reveal" data-news>
+                    <!-- Ảnh bìa chỉ hiển thị ngoài lưới tin tức, không xuất hiện khi mở chi tiết -->
+                    <img class="news-thumb" src="image/news/nutvang.jpg" alt="Strategic partnership">
+                    <div class="p-10">
+                        <h3 class="news-h3 text-2xl font-extrabold text-zinc-900 tracking-tighter mb-4">
+                            CONGRATULATIONS SPECIAL MILESTONE – YOUTUBE DIAMOND BUTTON!
+                        </h3>
+                        <p class="text-zinc-500 leading-relaxed mb-8 news-summary"></p>
+                        <button type="button" class="open-news inline-flex items-center gap-3 font-black text-zinc-900 hover:text-red-600 transition-colors">
+                            Read more <i class="fas fa-arrow-right text-sm"></i>
+                        </button>
+                    </div>
+                    <template class="news-full">
+                        <p>
+                            <strong>? CONGRATULATIONS SPECIAL MILESTONE – YOUTUBE DIAMOND BUTTON! ?</strong>
+                        </p>
+
+                        Today is a very special day for Winstar Media!
+
+                        We are extremely proud and touched to officially receive the Diamond Button from YouTube – a memorable milestone marking more than 10 million subscribers!
+                        
+                        This journey could not have come true without the companionship of all of you – who have always trusted, loved and followed us. This is not only the result of the Winstar team, but also the common joy of our big family!
+                        
+                        We would like to send our sincere thanks to Mr. Nguyen Thanh Tan, Director of Mega Creative Studio, and Vietnam Market Manager of Acifin Network, for attending and celebrating with us at the YouTube Diamond Button awarding event.
+                        
+                        Besides, we would also like to thank our domestic and foreign partners for supporting and assisting us on every step of our development path! We appreciate that companionship and look forward to continuing to cooperate to create breakthrough values ​​in the future!
+                        
+                        Thanks for making memorable moments together. We will continue to deliver more quality, creative and meaningful content in the near future.
+                        
+                        Let’s share this joy and continue to accompany us on the next journey!
+<img src="image/news/nutvang.jpg"  style="max-width: 500px; width: 100%; border-radius: 1rem; margin: 0 auto 1.5rem; display: block;">
+<img src="image/news/nutvang2.jpg"  style="max-width: 500px; width: 100%; border-radius: 1rem; margin: 0 auto 1.5rem; display: block;">
+                    </template>
+                </article>
+                <article class="news-card bg-white rounded-[2.5rem] overflow-hidden reveal" data-news>
+                    <!-- Ảnh bìa chỉ hiển thị ngoài lưới tin tức, không xuất hiện khi mở chi tiết -->
+                    <img class="news-thumb" src="image/news/kimcuong.png" alt="Strategic partnership">
+                    <div class="p-10">
+                        <h3 class="news-h3 text-2xl font-extrabold text-zinc-900 tracking-tighter mb-4">
+                            Diamond Creator Award (10 Million Subscribers)
+                        </h3>
+                        <p class="text-zinc-500 leading-relaxed mb-8 news-summary"></p>
+                        <button type="button" class="open-news inline-flex items-center gap-3 font-black text-zinc-900 hover:text-red-600 transition-colors">
+                            Read more <i class="fas fa-arrow-right text-sm"></i>
+                        </button>
+                    </div>
+                    <template class="news-full">
+                        <p>
+                            <strong>PvzFun Game Play T1:</strong>
+                        </p>
+                        <!-- Không hiện lại ảnh bìa (news-thumb) trong modal, chỉ hiện ảnh riêng thuộc nội dung bài viết -->
+                        
+                        PvzFun Game Play T1:
+
+Winstar Media Company with the mission of bringing moments of relaxation and entertainment through humorous and fun products for children. One of our leading Youtube Kid channels is PvzFun GamePlay T1, based on the classic game Plants vs Zombies. During the process of building, the production team has tried their best to create interesting and attractive animated films. With the love and enthusiastic support of audiences around the world, the channel has reached 9.73 million subscribers to date. With stable and steady growth, our company aims to reach the Youtube diamond button, 10 million subscribers in the coming September.
+<img src="image/news/pvz.jpg" alt="Diamond Creator Award - PvzFun Game Play T1" style="max-width: 500px; width: 100%; border-radius: 1rem; margin: 0 auto 1.5rem; display: block;">
+                    </template>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal -->
+    <div id="news-modal" class="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="news-modal-title">
+        <div class="modal-panel" tabindex="-1">
+            <div class="p-8 md:p-10 border-b border-zinc-100 flex items-start justify-between gap-6">
+                <div class="min-w-0">
+                    <p id="news-modal-meta" class="text-[10px] font-black uppercase tracking-[0.3em] text-red-600 mb-3"></p>
+                    <h2 id="news-modal-title" class="text-3xl md:text-5xl font-extrabold text-zinc-900 tracking-tighter leading-tight"></h2>
+                </div>
+                <button id="close-news" type="button" class="shrink-0 w-12 h-12 rounded-2xl bg-zinc-50 border border-zinc-100 text-zinc-900 hover:bg-red-600 hover:text-white transition-all" aria-label="Close">
+                    <i class="fas fa-xmark"></i>
+                </button>
+            </div>
+            <div class="p-8 md:p-10">
+                <img id="news-modal-img" class="w-full h-[320px] md:h-[420px] object-cover rounded-[2rem] mb-8" alt="">
+                <div id="news-modal-content" class="modal-body news-typography text-zinc-600 text-lg leading-relaxed"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+     <!-- Footer -->
+     <footer  class="py-20 px-6 md:px-12 border-t border-zinc-100 bg-white">
+        <div class="container mx-auto">
+            <div class="grid lg:grid-cols-4 gap-16 mb-20">
+                <div class="col-span-2">
+                    <div class="flex items-center gap-3 logo-container mb-8">
+                        <img src="image/logo/logo2.png" alt="Winstar Media Logo">
+                        <div class="text-2xl font-black tracking-tighter">
+                            <span class="text-zinc-900">WINSTAR</span><span class="text-red-600">MEDIA</span>
+                        </div>
+                    </div>
+                    <p class="text-zinc-500 max-w-sm mb-8 text-lg font-medium leading-relaxed">
+                        A pioneering agency for digital marketing solutions and creative content production in Vietnam.
+                    </p>
+                   <!-- <div class="flex space-x-6">
+                        <a href="#" class="w-12 h-12 flex items-center justify-center rounded-2xl bg-zinc-50 border border-zinc-100 text-zinc-900 hover:bg-red-600 hover:text-white transition-all"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="w-12 h-12 flex items-center justify-center rounded-2xl bg-zinc-50 border border-zinc-100 text-zinc-900 hover:bg-red-600 hover:text-white transition-all"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="w-12 h-12 flex items-center justify-center rounded-2xl bg-zinc-50 border border-zinc-100 text-zinc-900 hover:bg-red-600 hover:text-white transition-all"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                    -->
+                </div>
+                <div>
+                    <h4 class="font-bold text-zinc-900 mb-8 uppercase tracking-widest text-[11px]">Contact Information</h4>
+                    <p class="text-zinc-500 mb-4">HD Building</p>
+                    <p class="font-bold">Dai Lo Vinh - Cua Lo, Vinh Phu, Nghe An, Vietnam</p>
+                    <p class="text-red-600 font-bold">hotline@winstarmedia.vn</p>
+                    <div class="mt-5 overflow-hidden rounded-2xl border border-zinc-100 shadow-sm">
+                        <iframe
+                            title="Google Map - Winstar Media"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3779.179993670423!2d105.6798281!3d18.700758099999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3139cf0052996bf9%3A0xf84d4d4ea9ee12b4!2sHD%20building!5e0!3m2!1svi!2s!4v1774968840902!5m2!1svi!2s"
+                            width="100%"
+                            height="220"
+                            style="border:0;"
+                            allowfullscreen=""
+                            loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+                <div>
+                    <h4 class="font-bold text-zinc-900 mb-8 uppercase tracking-widest text-[11px]">Quick Links</h4>
+                    <ul class="space-y-4 text-zinc-400 font-bold text-xs uppercase tracking-widest">
+                        <li><a href="/#about" class="hover:text-red-600">About Us</a></li>
+                        <li><a href="/#services" class="hover:text-red-600">Partners</a></li>
+                        <li><a href="/news.html" class="hover:text-red-600">News</a></li>
+                        <li><a href="/tuyendung.html" class="hover:text-red-600">hiring</a></li>
+                        <li><a href="/#contact" class="hover:text-red-600">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="pt-10 border-t border-zinc-50 flex flex-col md:flex-row justify-between items-center gap-6 text-zinc-400 font-bold text-[11px] uppercase tracking-widest">
+                <p>&copy; 2026 Winstar Media. All rights reserved.</p>
+                <div class="flex gap-10">
+                    <a href="#" class="hover:text-zinc-900">Privacy Policy</a>
+                    <a href="#" class="hover:text-zinc-900">Terms of Use</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
